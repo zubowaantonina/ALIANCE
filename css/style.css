@@ -151,7 +151,7 @@ margin-bottom: 50px;
     border: 1px solid rgba(235, 235, 240, 0.2);
 
 }
-.header-features-item::not(last-child) {
+.header-features-item:not(:last-child) {
     border-right:none;
 }
 .header-features-text{
