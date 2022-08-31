@@ -22,7 +22,7 @@ body {
 
 .header {
     min-height: 100vh;
-    /* padding:94px; */
+   padding-top: 94px;
 }
 
 .header-image {
@@ -53,6 +53,8 @@ body {
     border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 z-index: 2;
 width: 100%;
+left: 0;
+top: 0;
 }
 
 .header-logo {
