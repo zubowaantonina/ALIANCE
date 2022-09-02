@@ -81,7 +81,8 @@ body {
 
 .header-nav {
   display: flex;
-  flex-basis: 100%;
+  /* flex-basis: 100%; */
+  flex-grow: 1;
   list-style: none;
   padding: 0 50px;
   margin: 0;
