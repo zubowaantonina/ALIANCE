@@ -16,4 +16,5 @@ window.addEventListener("scroll", () => {
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.toggle("is-open");
+  
 });
