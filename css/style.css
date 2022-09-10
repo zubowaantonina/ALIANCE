@@ -203,7 +203,7 @@ max-width: 1920px;
   display: flex;
   min-height: 9.375rem;
   padding: 0;
- 
+ min-height: 10.5rem;
   list-style: none;
   color: #fff;
   position: relative;
@@ -215,15 +215,16 @@ max-width: 1920px;
   border: 1px solid rgba(235, 235, 240, 0.2);
   width: 18rem;
   padding-top: 1.8125rem;
- 
+ /* height:auto; */
   
 }
+
 .swiper{
 margin-top: 6.25rem;
 /* margin-left: 8px; */
 }
 .swiper-wrapper.header-features{
-  max-height: 168px;
+  /* max-height: 168px; */
 }
 .swiper-wrapper,.second-swiper{
   margin: 0;
