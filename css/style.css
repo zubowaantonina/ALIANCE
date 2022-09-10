@@ -76,7 +76,9 @@ max-width: 1920px;
   height: 100%;
   z-index: 0;
 }
-
+.logo{
+  display: none;
+}
 .logo-svg {
   width: 8.75rem;
   height: 2.75rem;
