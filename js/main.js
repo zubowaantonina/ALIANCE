@@ -6,13 +6,13 @@ const menu = document.querySelector(".mobile-menu");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
- logo.style.display='block';
- logoLight.style.display='none';
+  logo.style.display = 'block';
+  logoLight.style.display = 'none';
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.style.display='none';
-  logoLight.style.display='block';
+  logo.style.display = 'none';
+  logoLight.style.display = 'block';
 };
 //функция открывания меню
 const openMenu = (event) => {
@@ -40,7 +40,7 @@ mMenuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.features-slider', {
   // Optional parameters
   speed: 400,
   autoHeight: true,
@@ -59,62 +59,61 @@ const swiper = new Swiper('.swiper', {
       // slidesOffsetBefore:-100,
     },
     // when window width is >= 480px
-   768: {
+    768: {
       slidesPerView: 3,
-    
+
     },
     // when window width is >= 640px
-   1024: {
+    1024: {
       slidesPerView: 4,
-     
+
     },
     1200: {
       slidesPerView: 5,
-     
+
     }
   }
 
 });
-const secondSwiper = new Swiper('.second-swiper', {
+const swiperSteps = new Swiper('.steps-slider', {
   speed: 400,
-  autoHeight: true,
-  loop: true,
-  longSwipes:false,
+  // autoHeight: true,
+  // loop: true,
+  // longSwipes: false,
   slidesPerView: 1,
-  // initialSlide: 1,
+spaceBetween:60,
+
  
-  // loopAdditionalSlides:0,
-  // loopFillGroupWithBlank: true,
   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev',
+    nextEl: '.steps-button-next',
+    prevEl: '.steps-button-prev',
     // type: 'bullets',
     // enabled:true,
   },
   breakpoints: {
     // when window width is >= 320px
     576: {
-      slidesPerView: 1,
-      centeredSlides:true,
-      slidesPerGroup: 1,
-     
+      slidesPerView: 2,
+      // centeredSlides: true,
+      // slidesPerGroup: 1,
+
       // slidesOffsetBefore:-100,
     },
     // when window width is >= 480px
-   768: {
-      slidesPerView: 2,
-      
-    
+    768: {
+      slidesPerView: 3,
+
+
     },
     // when window width is >= 640px
-  //  1024: {
-  //   slidesPerView: 3,
-  
-  //   },
+    //  1024: {
+    //   slidesPerView: 3,
+
+    //   },
     1200: {
-      slidesPerView: 3,
-    
-     
+      slidesPerView: 4,
+
+
     }
   }
 });
