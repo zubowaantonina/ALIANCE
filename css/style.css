@@ -28,7 +28,7 @@ body {
   max-width: 90rem;
   margin: 0 auto;
   /* border: 1px solid #000; */
-  /* padding-left: 12px; */
+  /* padding-left: 9px; */
 }
 
 .navbar {
@@ -63,7 +63,7 @@ body {
 }
 
 .header-image {
-  background: url("../img/header-img.jpg");
+  background: url("../img/header-main.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom -3.19rem;
@@ -196,7 +196,7 @@ left: auto;
 
 /* --------/navbar--------*/
 .header{
-  padding-left: 30px;
+  padding-left: 14px;
 }
 .separator {
   width: 9.375rem;
@@ -312,7 +312,7 @@ margin: 9.375em 0 0;
 }
 
 .section-light {
-  padding-left: 1.875rem;
+  padding-left: 1.075rem;
 }
 
 .section-title {
@@ -351,7 +351,7 @@ margin: 9.375em 0 0;
   color: #5c8ee6;
   display: flex;
   align-items: center;
-  padding-top: 0.0625rem;
+  padding-top:0.1625rem;
   letter-spacing: 0.0187rem;
 }
 
@@ -387,7 +387,7 @@ margin: 9.375em 0 0;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-top: .125rem;
+  padding-top: 0.025rem;
 }
 
 .steps-link:before {
@@ -439,7 +439,7 @@ width: 60px;
 
 .prodaction{
   margin-top: 5.8125rem;
-  padding-left: 1.875rem;
+  padding-left: 1.075rem;
 }
 .cards{
   display: flex;
@@ -477,19 +477,63 @@ margin-top: .3125rem;
 font-size: 1rem;
 line-height: 160%;
 color: #828A99;
-margin-bottom:  21.7875rem;
+margin-bottom:  21.8875rem;
 }
 .card-image{
   width: 90%;
   position: absolute;
   bottom: 0;
-/* width: 480px;
-height: 300px; */
   right: 0;
-  z-index: -1;
+  z-index: 0;
 }
-
-
+.marks{
+  padding-left: 1.075rem;
+}
+.brends{
+  display: flex;
+}
+.brend{
+  display: flex;
+  /* padding: 50px; */
+  margin-top: 5px;
+  border: 1px solid #EBEBF0;
+  flex-basis: 50%;
+  transition: border 0.2s;
+}
+.brend:hover{
+  border-color:  #5C8EE5;
+}
+.brend:hover .brend-title{
+  color:#5C8EE5;
+}
+.brend-title{
+  font-weight: 400;
+font-size: 28px;
+line-height: 160%;
+color: #292D33;
+margin-bottom: 10px;
+margin-top: 0;
+}
+.brend-content{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px 71px;
+}
+.brend-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #828A99;
+margin-top: 0;
+padding-right: 30px;
+}
+.brend-image{
+  margin-left: 50px;
+  width: 180px;
+  height: 180px;
+  margin-top: 49px;
+ 
+}
 
 /* ==================================================================================== */
 
@@ -564,6 +608,10 @@ height: 300px; */
   }
   .card{
     flex-basis: 50%;
+  }
+  .brends{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
