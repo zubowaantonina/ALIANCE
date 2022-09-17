@@ -501,6 +501,9 @@ body {
   border-color: #5c8ee5;
 }
 .brend:hover .brend-title {
+  fill: #5c8ee5;
+}
+.brend:hover .brend-image {
   color: #5c8ee5;
 }
 .brend-title {
@@ -534,9 +537,7 @@ body {
   
   fill:#828A99;
 }
-.brend-image:hover{
-  fill: #5c8ee5;
-}
+
 /* ==================================================================================== */
 
 @media (max-width: 1700px) {
