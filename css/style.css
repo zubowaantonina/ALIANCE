@@ -501,10 +501,10 @@ body {
   border-color: #5c8ee5;
 }
 .brend:hover .brend-title {
-  fill: #5c8ee5;
+  color: #5c8ee5;
 }
 .brend:hover .brend-image {
-  color: #5c8ee5;
+  fill: #5c8ee5;
 }
 .brend-title {
   font-weight: 400;
