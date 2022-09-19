@@ -669,14 +669,16 @@ padding-bottom: 1.25rem;
     justify-content: center;
     padding: 2.8125rem .9375rem;
     padding-left: 2.1875rem;
+    filter: grayscale(100%);
+    transition: filter 0.2s;
   }
 .clients-logo{
   /* max-width: 100%; */
   width: 4.375rem;
   height: 4.375rem;
-  filter: grayscale(100%)
+  
 }
-.clients-logo:hover{
+.clients-logo-item:hover{
   filter: grayscale(0)
 }
 /* ==================================================================================== */
