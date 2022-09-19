@@ -55,15 +55,14 @@ const swiper = new Swiper('.features-slider', {
     // when window width is >= 320px
     576: {
       slidesPerView: 2,
-      // centeredSlides:true,
-      // slidesOffsetBefore:-100,
+
     },
-    // when window width is >= 480px
+
     768: {
       slidesPerView: 3,
 
     },
-    // when window width is >= 640px
+
     1024: {
       slidesPerView: 4,
 
@@ -77,43 +76,61 @@ const swiper = new Swiper('.features-slider', {
 });
 const swiperSteps = new Swiper('.steps-slider', {
   speed: 400,
-  // autoHeight: true,
-  // loop: true,
-  // longSwipes: false,
-  slidesPerView: 1,
-// spaceBetween:5,
 
- 
+  slidesPerView: 1,
+
+
+
   navigation: {
     nextEl: '.steps-button-next',
     prevEl: '.steps-button-prev',
-    // type: 'bullets',
-    // enabled:true,
+
   },
   breakpoints: {
-    // when window width is >= 320px
+
     576: {
       slidesPerView: 2,
-      // centeredSlides: true,
-      // slidesPerGroup: 1,
 
-      // slidesOffsetBefore:-100,
     },
-    // when window width is >= 480px
+
     768: {
       slidesPerView: 3,
 
 
     },
-    // when window width is >= 640px
-    //  1024: {
-    //   slidesPerView: 3,
 
-    //   },
     1200: {
       slidesPerView: 4,
 
 
     }
   }
+});
+const swiperBlog = new Swiper('.blog-slider', {
+  // Optional parameters
+  speed: 400,
+  spaceBetween: 30,
+
+  slidesPerView: 2,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  // breakpoints: {
+
+  //   576: {
+  //     slidesPerView: 1,
+
+  //   },
+
+  //   768: {
+  //     slidesPerView: 1,
+
+
+  //   },
+
+   
+  // },
+
 });
