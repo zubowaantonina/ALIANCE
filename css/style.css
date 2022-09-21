@@ -289,8 +289,8 @@ body {
 .slider-button-prev{
   transform: scaleX(-1)
 }
-.slider-button-prev,
-.slider-button-next {
+.header-button-prev,
+.header-button-next {
   height: 100%;
   flex-basis: 50%;
   border: 1px solid rgba(235, 235, 240, 0.2);
@@ -422,7 +422,7 @@ body {
 .primary-button-wrapper {
   display: flex;
   justify-content: flex-end;
-  height: 60px;
+  height: 3.75rem;
 }
 .primary-button-prev{
   transform: scaleX(-1);
@@ -431,7 +431,7 @@ body {
 .primary-button-next {
   background-color: #3a71d1;
   height: 100%;
-  width: 80px;
+  width: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -607,8 +607,7 @@ body {
 
 .clients-wrapper{
   display: flex;
-  gap: 1.525rem;
-  
+  gap: 3.625rem;
 }
 .clients-content{
   flex-basis: 50%;
@@ -626,6 +625,7 @@ list-style: none;
 padding: 0;
 columns: 2 auto;
 margin: 0;
+gap: 47px;
 
 }
 .clients-list-item{
@@ -636,7 +636,7 @@ margin: 0;
 font-size: 1rem;
 line-height: 160%;
 color: #292D33;
-padding-left: 1.25rem;
+padding-left: 0.45rem;
 padding-bottom: 1.25rem;
 }
 
@@ -672,6 +672,13 @@ padding-bottom: 1.25rem;
 .clients-logo-item:hover{
   filter: grayscale(0)
 }
+.blog{
+  margin-left: .8125rem;
+}
+
+.blog-slider{
+margin-top: 3.6875rem;
+}
 .blog-card{
   display: flex;
   position: relative;
@@ -680,8 +687,9 @@ padding-bottom: 1.25rem;
   text-decoration: none;
   color: #fff;
   justify-content:flex-end;
-  padding: 50px;
+  padding: 3.125rem;
 }
+
 .blog-card::before{
   content: "";
   position: absolute;
@@ -706,7 +714,7 @@ padding-bottom: 1.25rem;
   font-weight: 400;
 font-size: 1.75rem;
 line-height: 160%;
-margin-bottom: 10px;
+margin-bottom: .625rem;
 margin-top: 0;
 }
 .blog-card-text{
@@ -1099,6 +1107,48 @@ margin-bottom: 1.725rem;
   .clients-wrapper{
     flex-direction: column;
   }
+  .blog{
+    margin-left: 0;
+  }
+  .separator {
+   
+    padding-left:0;
+}
+.blog-card-title{
+  font-size: 20px;
+  line-height: 120%;
+}
+.blog-card-text{
+ display: none;
+}
+.blog-card {
+ 
+  min-height: 14rem;
+  padding: 1.425rem;
+}
+.blog-slider {
+  margin-top: 2.8875rem;
+}
+.primary-button-prev,
+.primary-button-next {
+ 
+  width: 4.35rem;
+ 
+}
+.blog-slider-footer {
+ 
+  margin-top: 1.375rem;
+ 
+}
+.primary-button-wrapper {
+  margin-top: 1.3875rem;
+  height: 2.85rem;
+}
+/* .primary-button-wrapper {
+  
+  height: 3.75rem;
+} */
+
 }
 @media (max-width: 903px){
   .founder-content{
@@ -1175,7 +1225,7 @@ margin-bottom: 1.725rem;
     margin-top: 0.925rem;
 }
 .clients-logo-item {
-  padding: 30px 60px;
+  padding: 1.875rem 3.75rem;
  
 }
   

@@ -110,27 +110,24 @@ const swiperBlog = new Swiper('.blog-slider', {
   // Optional parameters
   speed: 400,
   spaceBetween: 30,
-
   slidesPerView: 2,
+  breakpoints: {
+   
+   290: {
+        slidesPerView: 1,
+       
+    },
+    769: {
+        slidesPerView: 2,
+       
+    },
+   
+},
   // Navigation arrows
   navigation: {
     nextEl: '.blog-button-next',
     prevEl: '.blog-button-prev',
   },
-  // breakpoints: {
-
-  //   576: {
-  //     slidesPerView: 1,
-
-  //   },
-
-  //   768: {
-  //     slidesPerView: 1,
-
-
-  //   },
-
-   
-  // },
+ 
 
 });
