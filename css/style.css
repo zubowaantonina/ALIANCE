@@ -1287,8 +1287,20 @@ body {
   }
 
   .footer-menu-wrapper:last-child {
-    margin-left: 50px;
+    margin-left: 3.125rem;
   }
+  .footer-info-wrapper {
+   
+    gap: 1.8625rem;
+    margin-left: .625rem;
+}
+
+  .footer-phone {
+   
+    font-size: 1.7rem;
+  
+    margin-left: 2.0875rem;
+}
 }
 
 @media (max-width: 1100px) {
