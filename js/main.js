@@ -55,79 +55,76 @@ const swiper = new Swiper('.features-slider', {
     // when window width is >= 320px
     576: {
       slidesPerView: 2,
-
     },
-
     768: {
       slidesPerView: 3,
-
     },
-
     1024: {
       slidesPerView: 4,
-
     },
     1200: {
       slidesPerView: 5,
-
     }
   }
-
 });
+
 const swiperSteps = new Swiper('.steps-slider', {
   speed: 400,
-
   slidesPerView: 1,
-
-
-
   navigation: {
     nextEl: '.steps-button-next',
     prevEl: '.steps-button-prev',
-
   },
   breakpoints: {
-
     576: {
       slidesPerView: 2,
-
     },
-
     768: {
       slidesPerView: 3,
-
-
     },
-
     1200: {
       slidesPerView: 4,
-
-
     }
   }
 });
+
 const swiperBlog = new Swiper('.blog-slider', {
   // Optional parameters
   speed: 400,
   spaceBetween: 30,
   slidesPerView: 2,
   breakpoints: {
-   
-   290: {
-        slidesPerView: 1,
-       
+    290: {
+      slidesPerView: 1,
     },
     769: {
-        slidesPerView: 2,
-       
+      slidesPerView: 2,
     },
-   
-},
+  },
   // Navigation arrows
   navigation: {
     nextEl: '.blog-button-next',
     prevEl: '.blog-button-prev',
   },
- 
-
 });
+
+const modal = document.querySelector(".modal");
+const modalToggle = document.querySelectorAll('[data-toggle=modal]');
+const modalClose = document.querySelector(".modal-close");
+
+modalToggle.forEach((element) => {
+  element.addEventListener('click', (event) => {
+    event.preventDefault();
+    modal.classList.add('is-open');
+    console.log(modal.classList);
+  })
+})
+modalClose.addEventListener('click', (event) => {
+  event.preventDefault();
+  modal.classList.remove('is-open');
+})
+modal.addEventListener('click', (event) => {
+  event.preventDefault();
+  modal.classList.remove('is-open');
+})
+
