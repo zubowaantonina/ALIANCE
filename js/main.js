@@ -6,13 +6,13 @@ const menu = document.querySelector(".mobile-menu");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.style.display = 'block';
-  logoLight.style.display = 'none';
+  logo.style.display = "block";
+  logoLight.style.display = "none";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.style.display = 'none';
-  logoLight.style.display = 'block';
+  logo.style.display = "none";
+  logoLight.style.display = "block";
 };
 //функция открывания меню
 const openMenu = (event) => {
@@ -20,7 +20,6 @@ const openMenu = (event) => {
   mMenuToggle.classList.add("close-menu");
   document.body.style.overflow = "hidden"; //запрет прокрутки сайта под меню
   lightModeOn();
-
 };
 //функция закрывания меню
 const closeMenu = (event) => {
@@ -40,7 +39,7 @@ mMenuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-const swiper = new Swiper('.features-slider', {
+const swiper = new Swiper(".features-slider", {
   // Optional parameters
   speed: 400,
   autoHeight: true,
@@ -48,8 +47,8 @@ const swiper = new Swiper('.features-slider', {
   slidesPerView: 1,
   // Navigation arrows
   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev',
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
   },
   breakpoints: {
     // when window width is >= 320px
@@ -64,16 +63,16 @@ const swiper = new Swiper('.features-slider', {
     },
     1200: {
       slidesPerView: 5,
-    }
-  }
+    },
+  },
 });
 
-const swiperSteps = new Swiper('.steps-slider', {
+const swiperSteps = new Swiper(".steps-slider", {
   speed: 400,
   slidesPerView: 1,
   navigation: {
-    nextEl: '.steps-button-next',
-    prevEl: '.steps-button-prev',
+    nextEl: ".steps-button-next",
+    prevEl: ".steps-button-prev",
   },
   breakpoints: {
     576: {
@@ -84,11 +83,11 @@ const swiperSteps = new Swiper('.steps-slider', {
     },
     1200: {
       slidesPerView: 4,
-    }
-  }
+    },
+  },
 });
 
-const swiperBlog = new Swiper('.blog-slider', {
+const swiperBlog = new Swiper(".blog-slider", {
   // Optional parameters
   speed: 400,
   spaceBetween: 30,
@@ -103,31 +102,27 @@ const swiperBlog = new Swiper('.blog-slider', {
   },
   // Navigation arrows
   navigation: {
-    nextEl: '.blog-button-next',
-    prevEl: '.blog-button-prev',
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
   },
 });
 
 const modal = document.querySelector(".modal");
-const modalToggle = document.querySelectorAll('[data-toggle=modal]');
-const modalClose = document.querySelector(".modal-close");
+const modalDialog = document.querySelector(".modal-dialog");
 
-modalToggle.forEach((element) => {
-  element.addEventListener('click', (event) => {
+document.addEventListener("click", (event) => {
+  // console.log(event.target.dataset.toggle=="modal"||event.target.parentNode.dataset.toggle == 'modal');
+  if (
+    event.target.dataset.toggle == "modal" ||
+    event.target.parentNode.dataset.toggle == "modal" ||
+    !event.composedPath().includes(modalDialog) && modal.classList.contains("is-open")
+  ) {
     event.preventDefault();
-    modal.classList.add('is-open');
-    console.log(modal.classList);
-  })
-})
-
-modalClose.addEventListener('click', (event) => {
-  event.preventDefault();
-  modal.classList.remove('is-open');
-  
-})
-
-
-
-
-
-
+    modal.classList.toggle("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modal.classList.contains("is-open")) {
+    modal.classList.toggle("is-open");
+  }
+});
