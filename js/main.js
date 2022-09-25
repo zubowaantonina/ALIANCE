@@ -119,12 +119,15 @@ modalToggle.forEach((element) => {
     console.log(modal.classList);
   })
 })
+
 modalClose.addEventListener('click', (event) => {
   event.preventDefault();
   modal.classList.remove('is-open');
+  
 })
-modal.addEventListener('click', (event) => {
-  event.preventDefault();
-  modal.classList.remove('is-open');
-})
+
+
+
+
+
 
