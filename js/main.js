@@ -3,16 +3,14 @@ const logoLight = document.querySelector(".logo-light");
 const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
+const isFront = document.body.classList.contains("front-page");
+
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.style.display = "block";
-  logoLight.style.display = "none";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.style.display = "none";
-  logoLight.style.display = "block";
 };
 //функция открывания меню
 const openMenu = (event) => {
@@ -29,9 +27,17 @@ const closeMenu = (event) => {
   this.scrollY < 1 ? lightModeOff() : lightModeOn();
   // lightModeOff();
 };
-
+const changeNavHeight=(height)=>{
+navbar.style.height=height;
+};
+// const chngeSliderTextColor=(event)=>{
+//   header-features.classList.add('.header-features-page');
+// }
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  this.scrollY > 1 ? changeNavHeight('4.5rem') : changeNavHeight('5.875rem');
+if (isFront){
+  this.scrollY > 1 ? lightModeOn () : lightModeOff();
+}
 });
 
 mMenuToggle.addEventListener("click", (event) => {
@@ -104,6 +110,30 @@ const swiperBlog = new Swiper(".blog-slider", {
   navigation: {
     nextEl: ".blog-button-next",
     prevEl: ".blog-button-prev",
+  },
+});
+const swiperAbout = new Swiper(".about-slider", {
+  // Optional parameters
+  speed: 400,
+  autoHeight: true,
+ 
+  // CenteredSlides: true,
+  // loop: true,
+  spaceBetween: 60,
+  slidesPerView: 4,
+  // CenteredSlides: false,
+  breakpoints: {
+    290: {
+      slidesPerView: 1,
+    },
+    769: {
+      slidesPerView: 2,
+    },
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".about-button-next",
+    prevEl: ".about-button-prev",
   },
 });
 

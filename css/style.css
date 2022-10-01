@@ -27,7 +27,7 @@ body {
 .container {
   max-width: 90rem;
   margin: 0 auto;
-  /* border: 1px solid #000; */
+  border: 1px solid #000;
   /* padding-left: 9px; */
 }
 
@@ -50,9 +50,17 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  /* height: 4.625rem; */
+}
+.navbar-light .logo-light{
+display:none;
+}
+.navbar-light .logo-dark{
+  display:block;
+}
+.nav-bar-scroll{
   height: 4.625rem;
 }
-
 .navbar-light .header-logo-path {
   fill: #292d33;
 }
@@ -83,7 +91,7 @@ body {
   z-index: 0;
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 
@@ -259,7 +267,9 @@ body {
   position: relative;
   width: 100%;
 }
-
+.header-features-page{
+  color: rgba(41, 45, 51, 1)
+}
 .header-features-item {
   padding: 1.75rem 3.0625rem;
   min-height: 100%;
@@ -269,8 +279,11 @@ body {
   height: 10.5rem;
 }
 
+
+
 .features-slider {
   min-height: 10.5rem;
+  text-decoration: none;
 }
 
 .swiper-wrapper {
@@ -308,7 +321,9 @@ body {
 
   /* width: 100%; */
 }
-
+.features-svg-page{
+  color: #292D33;
+}
 .header-features-text {
   font-weight: 400;
   font-size: 1rem;
@@ -1108,7 +1123,7 @@ body {
 }
 
 .modal-close {
-  display: block;
+  /* display: block; */
   position: absolute;
   top: 2.5rem;
   right: 3.125rem;
@@ -1170,14 +1185,207 @@ body {
 
 
 
+/*------------------------------------- about ---------------------------------------------*/
 
+.header-page-wrapper{
 
+  padding-top: 50px;
 
+}
+.header-features-item-page{
+  border: 1px solid #EBEBF0;
+}
+.header-nav-page{
+  display: flex;
+  align-items: center;
+ padding-bottom: 3.125rem;
+}
+.header-nav-page-link{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #828A99;
+text-decoration: none;
 
+}
+.header-page ,.header-page-autohim,.header-page-methodology{
+  background-color: #F0F2F5;
+  margin-bottom: 150px;
+  /* padding-top: 10px; */
+}
+.header-page-autohim,.header-page-methodology{
+  display: none;
+}
+.header-page-methodology{
+ background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/metod-header.jpg);
+ color:#fff;
+}
 
+.header-page-methodology .header-nav-page-link,.header-page-methodology .nav-page-link{
+  color:#fff;
+ 
+}
 
+.header-page-methodology .nav-page-link .header-nav-item::before{
+  /* content: "";
+  height: 1px;
+  width: .875rem; */
+  background: #fff;
+  /* margin-right: .625rem; */
+}
+.page-autohim{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.autohim-image{
+  margin-top: 30px;
+}
+.header-title-page{
+  margin-bottom: 1.5rem;
+}
+.header-nav-link-page{
+  display: block;
+}
+.nav-page-link .header-nav-item::before{
+  content: "";
+  height: 1px;
+  width: .875rem;
+  background: #828A99;
+  margin-right: .625rem;
+}
+.nav-page-link{
+  padding-left: 11px;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+color: #292D33;
+}
+.header-nav-item{}
+/* .nav-page-link li:not(:nth-child(1)) {
+  display: none;
+} */
+.experts{
+  margin-bottom: 150px;
+}
+.expert-wrapper{
+  display: flex;
+  gap:7.6rem;
+  justify-content:center;
+  align-items: center;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+  
+}
+.expert-image{
+  max-width: 30rem;
+  max-height: 30rem;
+}
+.expert-list{
+  width: 52.5rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
 
+.expert-list  .section-title{
+  margin-bottom: 23px;
+  margin-top: 25px;
+  width: 600px;
+}
+.expert-text{
+  /* margin-top: 5px; */
+  font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 160%;
+margin: 0;
+margin-top: 28px;
+}
+.production-list .section-title{
+  margin-bottom: 9px;
+  margin-top: 25px;
+  width: 600px;
+}
+.production-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.production-list{
+  max-width: 45rem;
+  margin-bottom: 100px;
+}
+.production-text{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+margin: 0;
+padding-top: 17px;
+    padding-bottom: 8px;
+}
+.production-image{
+  max-width: 37.5rem;
+  max-height: 46.875rem;
+  object-fit: cover;
+}
+.clients-list-page{
+  /* margin-top: 2.1rem; */
+  margin: 0;
+  /* margin-top: 10px; */
+  padding-top: 20px;
+  gap: 4px;
+}
+.research-wrapper{
+  margin-bottom: 50px;
+}
+.research-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.research-text{
+  display: block;
+  max-width: 635px;
+}
+.research-card-image{
+  max-width: 705px;
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+ .research-card{
+  min-height: 25rem;
+  /* flex-shrink:1; */
+}
+.about-card{
+  width: 705px;
+  display: block;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+.about-slider{
+  width: 100%;
+}
 
+/* .about-slider .swiper-slide{
+  width: 705px;
+} */
+.about-slider-footer{
+  margin-top: 30px;
+  margin-right: 320px;
+}
+/*  .swiper-slide{
+  width: 750px;
+} */
+.swiper-slide.about-card{
+  flex-shrink: 1;
+}
 /* ==================================================================================== */
 @media (hover: hover) {
   .button-link:hover::before {
@@ -1457,7 +1665,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1.85rem 2rem;
+    padding: 1.75rem 1.8rem;
     justify-content: space-between;
     /* padding: 1.8rem; */
     border-right: 1px solid rgba(235, 235, 240, 0.2);
@@ -1772,6 +1980,9 @@ body {
 }
 
 @media (max-width: 903px) {
+  .container {
+    max-width:57rem;
+  }
   .founder-content {
     max-width: 24rem;
   }
@@ -1831,6 +2042,9 @@ body {
 }
 
 @media (max-width: 810px) {
+  .container {
+    max-width:54rem;
+  }
   .cta-image {
     left: -8.275rem;
   }
@@ -1840,7 +2054,9 @@ body {
     margin-left: 49px;
   }
 
-
+  .founter-photo {
+    min-width: 30.35rem;
+}
 }
 
 
@@ -1849,7 +2065,7 @@ body {
   .container {
     max-width: 40rem;
   }
-
+  
   .steps-title {
     font-size: 1.45rem;
     margin: 1.31rem 0 0;
@@ -2313,7 +2529,11 @@ body {
 
     padding-left: .1875rem;
   }
-
+  .mobile-menu-toggle {
+   
+    padding: 1.75rem 1.8rem;
+   
+}
   .notify {
 
     margin-bottom: 0.425rem;
