@@ -41,7 +41,7 @@
         <svg class="footer-logo">
           <use href="img/sprite.svg#logo"></use>
         </svg>
-        <a href="tel:+74996861014" class="footer-phone">+7 (495) 686-10-14</a>
+        <a href="tel:+74996861014" class="footer-phone">+7 (498) 686-10-14</a>
         <div class="footer-info-wrapper">
           <div class="footer-info">
             <svg class="footer-icon">
