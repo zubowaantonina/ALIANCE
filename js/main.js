@@ -5,7 +5,6 @@ const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
 
-
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
 };
@@ -27,17 +26,17 @@ const closeMenu = (event) => {
   this.scrollY < 1 ? lightModeOff() : lightModeOn();
   // lightModeOff();
 };
-const changeNavHeight=(height)=>{
-navbar.style.height=height;
+const changeNavHeight = (height) => {
+  navbar.style.height = height;
 };
 // const chngeSliderTextColor=(event)=>{
 //   header-features.classList.add('.header-features-page');
 // }
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight('4.5rem') : changeNavHeight('5.875rem');
-if (isFront){
-  this.scrollY > 1 ? lightModeOn () : lightModeOff();
-}
+  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  }
 });
 
 mMenuToggle.addEventListener("click", (event) => {
@@ -116,7 +115,7 @@ const swiperAbout = new Swiper(".about-slider", {
   // Optional parameters
   speed: 400,
   autoHeight: true,
- 
+
   // CenteredSlides: true,
   // loop: true,
   spaceBetween: 60,
@@ -145,7 +144,8 @@ document.addEventListener("click", (event) => {
   if (
     event.target.dataset.toggle == "modal" ||
     event.target.parentNode.dataset.toggle == "modal" ||
-    !event.composedPath().includes(modalDialog) && modal.classList.contains("is-open")
+    (!event.composedPath().includes(modalDialog) &&
+      modal.classList.contains("is-open"))
   ) {
     event.preventDefault();
     modal.classList.toggle("is-open");
@@ -156,3 +156,36 @@ document.addEventListener("keyup", (event) => {
     modal.classList.toggle("is-open");
   }
 });
+// const forms = document.querySelectorAll('form');
+
+// forms.forEach((form) => {
+//   const validation = new JustValidate(form, {
+//     errorFieldCssClass: "is-invalid",
+//   });
+//   // console.log(form);
+//   validation
+//     .addField("[name=username]", [
+//       {
+//         rule: 'required',
+//         errorMessage:'Укажите имя'
+//       },
+//       {
+//         rule: "maxLength",
+//         value: 50,
+//         errorMessage:'Максимально 50 символов'
+//       },
+//     ])
+//     .addField("[name=userphone]", [
+//       {
+//         rule: "required",
+//         errorMessage: "Укажите телефон",
+//       },
+//       {
+//         rule: "email",
+//         errorMessage: "Email is invalid!",
+//       }
+//       .onSuccess((event) => {
+//         console.log(event.target.getAttribute('method'));
+//       })
+//     ]);
+// });
