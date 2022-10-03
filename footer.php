@@ -156,7 +156,7 @@
         <label class='input-group-label modal-group-label' for="modal-user-name">Имя</label>
       </div>
       <div class="input-group modal-input-group">
-        <input id='modal-user-phon' type="tel" class="input modal-input" name='userphone' placeholder=""/>
+        <input id='modal-user-phon' type="tel" class="input modal-input phone-mask" name='userphone' placeholder=""/>
         <label class='input-group-label modal-group-label' for="modal-user-phon">Номер телефона</label>
       </div>
     </div>
