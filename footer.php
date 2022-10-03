@@ -12,7 +12,7 @@
               <label class='input-group-label' for="user-name">Имя</label>
             </div>
             <div class="input-group">
-              <input id='user-phon' type="tel" class="input" name='userphone' placeholder=""/>
+              <input id='user-phon' type="tel" class="input phone-mask" name='userphone' placeholder=""/>
               <label class='input-group-label' for="user-phon" >Номер телефона</label>
             </div>
           </div>
