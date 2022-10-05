@@ -137,10 +137,10 @@
     </div>
     <!-- /.footer-wrapper -->
     <!-- /.container -->
-<div class="modal">
+<div class="modal" id="feedback-modal">
   <div class="modal-dialog">
   <h2 class="modal-title">Есть вопросы?</h2>
-  <a href="#" class="modal-close" data-toggle=modal>
+  <a href="#" class="modal-close" data-toggle='modal' data-target="#feedback-modal">
     <svg class="close-icon" width="24">
       <use href="img/sprite.svg#close"></use>
     </svg>
@@ -179,10 +179,10 @@
 
 
 
-<div class="sending">
- <div class="sending-dialog">
+<div class="modal sending" id="alert-modal">
+ <div class="modal-dialog sending-dialog">
   <img src="./img/thanks_illu.png" alt="" class="sending-image">
-  <a href="./index.php" class="sending-close" data-toggle=sending>
+  <a href="./index.php"class="modal-close sending-close" data-toggle='modal' data-target="#alert-modal">
     <svg class="close-icon-sending" width="18">
       <use href="img/sprite.svg#close"></use>
     </svg>

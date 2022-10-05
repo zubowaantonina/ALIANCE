@@ -126,7 +126,7 @@
       <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
     </div>
     <!-- /.header-phone -->
-    <button class="navbar-button button" data-toggle=modal>
+    <button class="navbar-button button" data-toggle='modal' data-target="#feedback-modal">
       <svg class="phone-icon">
         <use href="img/sprite.svg#phone"></use>
       </svg>
@@ -148,7 +148,7 @@
           будущего проекта напрямую зависит от анализа существующих паттернов
           поведения.
         </p>
-        <button class="button header-button">Подробнее о компании</button>
+        <button class="button header-button" data-toggle='modal' data-target="#feedback-modal">Подробнее о компании</button>
       </div>
 
       <!-- /.header-content -->
@@ -569,9 +569,9 @@
 
   
 <?php include_once('footer.php'); ?>
-<!-- <script src='js/just-validate.production.min.js'></script>
+<script src='js/just-validate.production.min.js'></script>
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script> -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>

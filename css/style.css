@@ -1159,7 +1159,7 @@ body {
   
 }
 .sending{
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
   transform: scaleX(-100%);
   position: fixed;
@@ -1169,7 +1169,7 @@ body {
   height: 100%;
   background-color: rgba(40, 45, 51, 0.5);
   z-index: 10;
-  display: flex;
+  display: flex; */
   /* transition: opacity 0.2s; */
 }
 .sending-dialog{

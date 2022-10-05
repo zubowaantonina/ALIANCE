@@ -126,7 +126,7 @@
             <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
         </div>
         <!-- /.header-phone -->
-        <button class="navbar-button button" data-toggle="modal">
+        <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
             <svg class="phone-icon">
                 <use href="img/sprite.svg#phone"></use>
             </svg>
