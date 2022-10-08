@@ -23,7 +23,7 @@
         <a href="./about.php" class="mobile-menu-link">О&nbsp;компании</a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link">Контрактное производство</a>
+        <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
             <a href="#" class="mobile-submenu-link">Автомобильная химия</a>
@@ -107,10 +107,10 @@
         <a href="./about.php" class="header-nav-link">О&nbsp;компании</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контрактное производство</a>
+        <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Собственные торговые марки</a>
+        <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Новости</a>
@@ -210,296 +210,21 @@
           </div>
         </div>
       </div>
+     
 
       <!-- /.header-features -->
     </div>
     <!-- /.container -->
   </header>
   <!-- /.header -->
-  <section class="section section-light">
-    <div class="container">
-      <div class="separator"></div>
-      <h2 class="section-title">схема работы</h2>
-
-      <div class="swiper steps-slider">
-        <ol class="swiper-wrapper steps">
-          <li class="swiper-slide steps-item">
-            <span class="steps-num">01</span>
-            <h3 class="steps-title">Знакомство</h3>
-            <p class="steps-text">
-              Безусловно, сплочённость команды профессионалов позволяет
-              оценить значение форм воздействия.
-            </p>
-            <a href="#" class="button-link">Оставить заявку</a>
-          </li>
-          <li class="swiper-slide steps-item">
-            <span class="steps-num">02</span>
-            <h3 class="steps-title">
-              Заключение<br />
-              договора
-            </h3>
-            <p class="steps-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </li>
-          <li class="swiper-slide steps-item">
-            <span class="steps-num">03</span>
-            <h3 class="steps-title">Производство</h3>
-            <p class="steps-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые
-              <br />элементы.
-            </p>
-          </li>
-          <li class="swiper-slide steps-item">
-            <span class="steps-num">04</span>
-            <h3 class="steps-title">Доставка</h3>
-            <p class="steps-text">
-              В частности, экономическая повестка сегодняшнего дня говорит о
-              возможностях приоритизации<br />
-              разума над эмоциями.
-            </p>
-          </li>
-        </ol>
-        <div class="steps-buttons primary-button-wrapper">
-          <div class="steps-button-prev primary-button-prev">
-            <svg class="features-svg" width="36" height="24">
-              <use href="img/sprite.svg#arrow-next"></use>
-            </svg>
-          </div>
-          <div class="steps-button-next primary-button-next">
-            <svg class="features-svg" width="36" height="24">
-              <use href="img/sprite.svg#arrow-next"></use>
-            </svg>
-          </div>
-        </div>
-      </div>
-      <!-- </div> -->
-    </div>
-    <!-- /.container -->
-  </section>
+  <?php $block_title="схема работы";include_once('./template-parts/steps-blog.php'); ?>
   <!-- /.section section-light -->
-  <section class="section prodaction">
-    <div class="container">
-      <div class="separator"></div>
-      <h2 class="section-title">Контрактное производство</h2>
-      <div class="cards">
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Автомобильная химия</h3>
-            <p class="card-text">
-              Безусловно, сплочённость команды профессионалов позволяет
-              оценить значение форм воздействия.
-            </p>
-          </div>
-          <img src="img/avto-him.jpg" alt="Автомобильная химия" class="card-image" />
-        </a>
-
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Бытовая химия</h3>
-            <p class="card-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые элементы.
-            </p>
-          </div>
-          <img src="img/bit-him.jpg" alt="Бытовая химия" class="card-image" />
-        </a>
-
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Дезинфицирующие средства</h3>
-            <p class="card-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </div>
-          <img src="img/dezinfect.jpg" alt="Дезинфицирующие средства" class="card-image" />
-        </a>
-
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Пищевые аэрозоли</h3>
-            <p class="card-text">
-              Безусловно, сплочённость команды профессионалов позволяет
-              оценить значение форм воздействия.
-            </p>
-          </div>
-          <img src="img/dezinfect.png" alt="Пищевые аэрозоли" class="card-image" />
-        </a>
-
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Косметическая продукция</h3>
-            <p class="card-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </div>
-          <img src="img/avto-him.png" alt="Косметическая продукция" class="card-image" />
-        </a>
-
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Краски аэрозольные</h3>
-            <p class="card-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые элементы.
-            </p>
-          </div>
-          <img src="img/bit-him.png" alt="Краски аэрозольные" class="card-image" />
-        </a>
-      </div>
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /.prodaction -->
-  <section class="section marks">
-    <div class="container">
-      <div class="separator"></div>
-      <h2 class="section-title">
-        собственные <span class="section-title-text">торговые</span> марки
-      </h2>
-      <div class="brends">
-        <div class="brend">
-          <svg class="brend-image">
-            <use href="img/sprite.svg#AG"></use>
-          </svg>
-
-          <h3 class="brend-title">Автохимия AG-Tech</h3>
-          <p class="brend-text">
-            Для современного мира разбавленное изрядной долей эмпатии,
-            рациональное мышление создаёт предпосылки для поставленных
-            обществом задач.
-          </p>
-        </div>
-        <div class="brend">
-          <svg class="brend-image">
-            <use href="img/sprite.svg#AP"></use>
-          </svg>
-
-          <h3 class="brend-title">Автохимия AP</h3>
-          <p class="brend-text">
-            Для современного мира разбавленное изрядной долей эмпатии,
-            рациональное мышление создаёт предпосылки для поставленных
-            обществом задач.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /.section marks -->
-  <section class="section founder">
-    <img src="./img/founder.jpg" alt="founter" class="founter-photo" />
-    <div class="container">
-      <div class="founder-content-wrapper">
-        <div class="founder-content">
-          <div class="separator"></div>
-          <h2 class="section-title">Отношение к делу и к клиентам</h2>
-          <p class="founder-text">
-            Кстати, интерактивные прототипы описаны максимально подробно.
-            Повседневная практика показывает, что укрепление и развитие
-            внутренней структуры говорит о возможностях соответствующих
-            условий активизации. Внезапно, независимые государства, которые
-            представляют собой яркий пример континентально-европейского типа
-            политической культуры, будут подвергнуты целой серии независимых
-            исследований. С учётом сложившейся международной обстановки,
-            синтетическое тестирование выявляет срочную потребность системы
-            массового участия.
-          </p>
-          <p class="founder-text">
-            А ещё действия представителей оппозиции, превозмогая сложившуюся
-            непростую экономическую ситуацию, в равной степени предоставлены
-            сами себе. Не следует, однако, забывать, что выбранный нами
-            инновационный путь в значительной степени обусловливает важность
-            дальнейших направлений развития.
-          </p>
-          <a href="#" class="button-link">О нашей миссии</a>
-          <!-- /.founder-text -->
-        </div>
-      </div>
-      <!-- /.founder-content-wrapper -->
-    </div>
-    <!-- /.container -->
-  </section>
+  <?php $block_title="Контрактное производство";include_once('./template-parts/prodaction-blog.php'); ?>
+ <?php $block_title="собственные торговые марки";include_once('./template-parts/trademarks-blog.php'); ?>
+ <?php include_once('./template-parts/founder-blog.php'); ?>
   <!-- /.section founder -->
-  <section class="section clients">
-    <div class="container">
-      <div class="separator clients-separator"></div>
-      <div class="clients-wrapper">
-        <div class="clients-content">
-          <h2 class="section-title">
-            Производим аэрозольную продукцию для разных сфер
-          </h2>
-          <ul class="clients-list">
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#him"></use>
-              </svg>Химические производства
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#car"></use>
-              </svg>Автомойки
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#eat"></use>
-              </svg>Пищевая продукция
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#brush"></use>
-              </svg>Лаки и краски
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#cosmetic"></use>
-              </svg>Косметические средства
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#car-cosm"></use>
-              </svg>Автомобильная косметика
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#shirt"></use>
-              </svg>Косметика по уходу за одеждой
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#boots"></use>
-              </svg>Косметика по уходу за обувью
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#brickts"></use>
-              </svg>Строительные материалы
-            </li>
-            <li class="clients-list-item">
-              <svg width="30" class="clients-list-icon">
-                <use href="img/sprite.svg#more"></use>
-              </svg>И многих других
-            </li>
-          </ul>
-        </div>
-        <!-- /.clients-content -->
-        <div class="clients-logo-list">
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-          <a href="#" class="clients-logo-item"><img src="img/client.png" alt="" class="clients-logo" /></a>
-        </div>
-        <!-- /.clients-logo -->
-      </div>
-      <!-- /.clients-wrapper -->
-    </div>
-    <!-- /.container -->
-  </section>
+  <?php include_once('./template-parts/clients-blog.php'); ?>
+ 
   <!-- /.section clients -->
   <section class="section blog">
     <div class="container">
@@ -509,7 +234,7 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <a href="#" class="swiper-slide blog-card">
+          <a href="./blog.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
@@ -520,7 +245,7 @@
               предоставлены...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="./blog.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
@@ -531,7 +256,7 @@
               высокотехнологичная...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="./blog.php" class="swiper-slide blog-card">
             <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
@@ -545,7 +270,7 @@
         </div>
         <!-- If we need navigation buttons -->
         <div class="blog-slider-footer">
-          <a href="" class="button-link">Весь блог</a>
+          <a href="./blog.php" class="button-link">Весь блог</a>
           <div class="blog-buttons primary-button-wrapper">
             <div class="blog-button-prev primary-button-prev">
               <svg class="features-svg" width="36" height="24">
