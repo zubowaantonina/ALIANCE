@@ -85,7 +85,12 @@
 
 <div class="modal sending" id="alert-modal">
  <div class="modal-dialog sending-dialog">
-  <img src="./img/thanks_illu.png" alt="" class="sending-image">
+            <picture class="sending-image" >
+                <source type="image/webp" srcset="./img/thanks_illu.webp">
+                <source type="image/jpeg" srcset="./img/thanks_illu.png">
+                <img src="./img/thanks_illu.png" alt="" >
+            </picture>
+ 
   <a href="./index.php"class="modal-close sending-close" data-toggle='modal' data-target="#alert-modal">
     <svg class="close-icon-sending" width="18">
       <use href="img/sprite.svg#close"></use>
