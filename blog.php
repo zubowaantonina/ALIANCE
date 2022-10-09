@@ -5,8 +5,13 @@ include_once('header-page.php'); ?>
 <section class="section blog-content">
     <div class="container">
         <div class="blog-wrapper">
-        <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+          <a href="#" class="blog-card">
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo1.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+            </picture>
+            
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -17,7 +22,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo2.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -28,7 +37,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+          <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo1.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -39,7 +52,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo2.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -50,7 +67,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+          <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo1.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -61,7 +82,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo2.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -72,7 +97,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+          <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo1.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -83,7 +112,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo2.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -94,7 +127,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+          <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo1.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo1.jpg">
+                <img src="img/blog/blog-photo1.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -105,7 +142,11 @@ include_once('header-page.php'); ?>
             </p>
           </a>
           <a href="#" class="blog-card">
-            <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image"  >
+                <source type="image/webp" srcset="./img/blog/blog-photo2.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
+                <img src="img/blog/blog-photo2.jpg" alt="" class="blog-card-image" />
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
