@@ -1,9 +1,9 @@
 <section class="cta">
     <div class="bg-grey section-cta">
-    <picture class="cta-image"  >
-              <source type="image/webp" srcset="./img/cta.webp">
-              <source type="image/jpeg" srcset="img/cta.png">
-              <img src="img/cta.png" alt="call to action">
+    <picture class="cta-image" >
+              <source type="image/webp" srcset="./img/cta.webp" class="cta-image" >
+              <source type="image/jpeg" srcset="img/cta.png" class="cta-image" >
+              <img src="img/cta.png" alt="call to action" class="cta-image" >
             </picture>
     
       <div class="cta-form-wrapper container">
@@ -86,9 +86,9 @@
 <div class="modal sending" id="alert-modal">
  <div class="modal-dialog sending-dialog">
             <picture class="sending-image" >
-                <source type="image/webp" srcset="./img/thanks_illu.webp">
-                <source type="image/jpeg" srcset="./img/thanks_illu.png">
-                <img src="./img/thanks_illu.png" alt="" >
+                <source type="image/webp" srcset="./img/thanks_illu.webp" class="sending-image">
+                <source type="image/jpeg" srcset="./img/thanks_illu.png" class="sending-image">
+                <img src="./img/thanks_illu.png" alt=""  class="sending-image">
             </picture>
  
   <a href="./index.php"class="modal-close sending-close" data-toggle='modal' data-target="#alert-modal">

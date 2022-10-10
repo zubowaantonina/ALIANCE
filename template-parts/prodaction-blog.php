@@ -16,9 +16,9 @@
             </p>
           </div>
             <picture class="card-image"  >
-              <source type="image/webp" srcset="./img/avto-him.webp">
-              <source type="image/jpeg" srcset="img/avto-him.jpg" >
-              <img src="img/avto-him.jpg" alt="Автомобильная химия" />
+              <source type="image/webp" srcset="./img/avto-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/avto-him.jpg"  class="card-image">
+              <img src="img/avto-him.jpg" alt="Автомобильная химия"  class="card-image"/>
             </picture>
           
         </a>
@@ -32,9 +32,9 @@
             </p>
           </div>
           <picture class="card-image"  >
-              <source type="image/webp" srcset="./img/bit-him.webp">
-              <source type="image/jpeg" srcset="img/bit-him.jpg" >
-              <img src="img/bit-him.jpg" alt="бытовая химия" />
+              <source type="image/webp" srcset="./img/bit-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/bit-him.jpg"  class="card-image">
+              <img src="img/bit-him.jpg" alt="бытовая химия"  class="card-image"/>
             </picture>
         </a>
 
@@ -46,9 +46,9 @@
             </p>
           </div>
           <picture class="card-image"  >
-              <source type="image/webp" srcset="./img/dezinfect.webp">
-              <source type="image/jpeg" srcset="img/dezinfect.jpg" >
-              <img src="img/dezinfect.jpg" alt="Дезинфицирующие средства" />
+              <source type="image/webp" srcset="./img/dezinfect.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/dezinfect.jpg"  class="card-image">
+              <img src="img/dezinfect.jpg" alt="Дезинфицирующие средства"  class="card-image"/>
             </picture>
         </a>
 
@@ -61,9 +61,9 @@
             </p>
           </div>
             <picture class="card-image"  >
-              <source type="image/webp" srcset="./img/dezinfect.webp">
-              <source type="image/jpeg" srcset="img/dezinfect.jpg" >
-              <img src="img/dezinfect.jpg" alt="Пищевые аэрозоли"/>
+              <source type="image/webp" srcset="./img/dezinfect.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/dezinfect.jpg"  class="card-image">
+              <img src="img/dezinfect.jpg" alt="Пищевые аэрозоли" class="card-image"/>
             </picture>
           
         </a>
@@ -75,10 +75,10 @@
               Лишь интерактивные прототипы призваны к ответу.
             </p>
           </div>
-            <picture class="card-image"  >
-              <source type="image/webp" srcset="./img/avto-him.webp">
-              <source type="image/jpeg" srcset="img/avto-him.jpg" >
-              <img src="img/avto-him.jpg" alt="Косметическая продукция" />
+            <picture class="card-image">
+              <source type="image/webp" srcset="./img/avto-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/avto-him.jpg"  class="card-image">
+              <img src="img/avto-him.jpg" alt="Косметическая продукция"  class="card-image"/>
             </picture>
          
         </a>
@@ -92,9 +92,9 @@
             </p>
           </div>
           <picture class="card-image"  >
-              <source type="image/webp" srcset="./img//bit-him.webp">
-              <source type="image/jpeg" srcset="img/bit-him.jpg">
-              <img src="img/bit-him.jpg" alt="Краски аэрозольные"  />
+              <source type="image/webp" srcset="./img//bit-him.webp" class="card-image">
+              <source type="image/jpeg" srcset="img/bit-him.jpg" class="card-image">
+              <img src="img/bit-him.jpg" alt="Краски аэрозольные"   class="card-image"/>
             </picture>
           
         </a>
