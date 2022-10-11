@@ -88,7 +88,7 @@
             <picture class="sending-image" >
                 <source type="image/webp" srcset="./img/thanks_illu.webp" class="sending-image">
                 <source type="image/jpeg" srcset="./img/thanks_illu.png" class="sending-image">
-                <img src="./img/thanks_illu.png" alt=""  class="sending-image">
+                <img src="./img/thanks_illu.png" alt="sending"  class="sending-image">
             </picture>
  
   <a href="./index.php"class="modal-close sending-close" data-toggle='modal' data-target="#alert-modal">
