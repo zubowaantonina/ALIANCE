@@ -6,14 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?= $page_title?> - Aliance Production</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;600;700&family=PT+Sans&family=Pacifico&family=Roboto&family=Tenor+Sans&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css?v=1.0" />
+   
+    
+    <link rel="stylesheet" href="css/style1.css?v=1.0" />
 </head>
 
 <body class="about">
@@ -89,11 +84,13 @@
         </div>
     </div>
     <nav class="navbar navbar-light">
-        <a href="" class="mobile-menu-toggle">
-            <div class="molile-menu-line"></div>
-            <div class="molile-menu-line"></div>
-            <div class="molile-menu-line"></div>
-        </a>
+    <div class="navbar-mobile-menu-toggle">
+    <a href="" class="mobile-menu-toggle">
+      <div class="molile-menu-line"></div>
+      <div class="molile-menu-line"></div>
+      <div class="molile-menu-line"></div>
+    </a>
+    </div>
         <a href="./index.php" class="header-logo">
             <svg class="logo-svg logo-light">
                 <use href="img/sprite.svg#logo-light"></use>
