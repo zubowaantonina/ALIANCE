@@ -8,7 +8,7 @@
     <title><?= $page_title?> - Aliance Production</title>
    
     
-    <link rel="stylesheet" href="css/style1.css?v=1.0" />
+    <link rel="stylesheet" href="css/style.css?v=1.0" />
 </head>
 
 <body class="about">

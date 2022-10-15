@@ -1,6 +1,7 @@
 @import url("normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans:wght@400;600;700&family=PT+Sans&family=Pacifico&family=Roboto&family=Tenor+Sans&display=swap");
 @import url("swiper-bundle.min.css");
+
 * {
   box-sizing: border-box;
 }
@@ -76,9 +77,11 @@ body {
   /* min-height: 100vh; */
   padding-top: 5.875rem;
 }
+
 .no-webp .header-image {
   background: url("../img/header-main.jpeg");
 }
+
 /* .webp .header-image {
   background: url("../img/header-main.webp");
   background-size: cover;
@@ -214,8 +217,7 @@ body {
   cursor: pointer;
 }
 
-.button-text {
-}
+.button-text {}
 
 .navbar-button {
   flex-shrink: 0;
@@ -446,11 +448,9 @@ body {
   transition: width 0.2s;
 }
 
-.swiper-slide.steps-item {
-}
+.swiper-slide.steps-item {}
 
-.steps-slider {
-}
+.steps-slider {}
 
 .primary-button-wrapper {
   display: flex;
@@ -874,15 +874,15 @@ body {
   outline: 0;
 }
 
-.input:focus ~ .input-group-label {
+.input:focus~.input-group-label {
   top: -0.5rem;
   left: 1.25rem;
   font-size: 0.625rem;
   background: inherit;
 }
 
-.input:focus ~ .input-group-label,
-.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+.input:focus~.input-group-label,
+.input:not(:placeholder-shown).input:not(:focus)~.input-group-label {
   top: -0.5rem;
   left: 1.25rem;
   font-size: 0.625rem;
@@ -1233,11 +1233,13 @@ body {
 .modal-form-footer {
   margin-top: 20px;
 }
+
 .modal-form-button {
   margin-bottom: 1.5rem;
   display: block;
   width: 100%;
 }
+
 .sending-dialog {
   background-color: #fff;
   margin: auto;
@@ -1260,6 +1262,7 @@ body {
   /* margin-bottom: 2px; */
   margin-top: 14px;
 }
+
 .sending-text {
   font-family: "Noto Sans";
   font-style: normal;
@@ -1270,9 +1273,11 @@ body {
   padding-bottom: 2px;
   /* margin-bottom: 1.25rem; */
 }
+
 .sending-form-footer {
   margin-top: 0;
 }
+
 .sending-form-button {
   display: block;
   width: 100%;
@@ -1283,12 +1288,13 @@ body {
   font-size: 14px;
   line-height: 160%;
 }
+
 .sending-image {
   width: 17.8125rem;
   height: 15.3125rem;
 }
-.close-icon {
-}
+
+.close-icon {}
 
 /*------------------------------------- about ---------------------------------------------*/
 .breadcrumbs {
@@ -1419,8 +1425,7 @@ body {
   color: #292d33;
 }
 
-.header-nav-item {
-}
+.header-nav-item {}
 
 /* .nav-page-link li:not(:nth-child(1)) {
   display: none;
@@ -1651,10 +1656,15 @@ body {
   .header-nav-item:not(:last-child) {
     margin-right: 2.325rem;
   }
+
   .cta-image {
     max-width: 54rem;
     width: 83%;
     left: -41px;
+  }
+  .expert-image {
+    max-width: 28rem;
+    max-height: 28rem;
   }
 }
 
@@ -1730,6 +1740,11 @@ body {
   .cta-form-title {
     margin-bottom: 1.5625rem;
   }
+  .expert-image {
+    max-width: 26rem;
+    max-height: 26rem;
+  }
+  
 }
 
 /* ==================================== */
@@ -1841,6 +1856,10 @@ body {
 
     margin-left: 2.0875rem;
   }
+  .expert-image {
+    max-width: 24rem;
+    max-height: 24rem;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -1895,12 +1914,14 @@ body {
     /* padding: 1.8rem; */
     /* border-right: 1px solid rgba(235, 235, 240, 0.2); */
   }
+
   .navbar-mobile-menu-toggle {
     border-right: 1px solid rgba(235, 235, 240, 0.2);
     height: 100%;
     display: flex;
     align-items: center;
   }
+
   .molile-menu-line {
     height: 1px;
     background-color: #fff;
@@ -1911,10 +1932,12 @@ body {
   .molile-menu-line:nth-child(2) {
     width: 70%;
   }
+
   .navbar-light .mobile-menu-toggle {
     width: 5.7rem;
     padding: 1.55rem 1.5rem;
   }
+
   .navbar-light .molile-menu-line {
     background-color: #333;
   }
@@ -2430,17 +2453,19 @@ body {
   .header-logo {
     /* max-width: 19.05rem; */
   }
+
   .mobile-menu-toggle {
     width: 5.9rem;
     /* height: 100%; */
     height: 4.25rem;
     display: flex;
     flex-direction: column;
-    padding: 1.35rem 1.6rem;
+    padding: 1.55rem 1.8rem;
 
     /* padding: 1.8rem; */
     /* border-right: 1px solid rgba(235, 235, 240, 0.2); */
   }
+
   .separator {
     width: 100px;
   }
@@ -2759,9 +2784,7 @@ body {
     padding-left: 0.1875rem;
   }
 
-  .mobile-menu-toggle {
-    padding: 1.75rem 1.8rem;
-  }
+ 
 
   .notify {
     margin-bottom: 0.425rem;

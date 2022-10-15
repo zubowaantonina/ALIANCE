@@ -4,8 +4,15 @@ $page_title='О компании';
 $header_stile='header-page';
 include_once('header-page.php'); ?>  
     <!-- /.header-page -->
-    <!-- <div class="expert-wrapper">
-        <img src="img/expert.jpg" alt="expert" class="expert-image">
+   <section class="section expert">
+   <div class="container">
+    <div class="expert-wrapper">
+            <picture class="expert-image">
+                <source type="image/webp" srcset="./img/expert.webp" class="expert-image">
+                <source type="image/jpeg" srcset="img/expert.jpg" class="expert-image">
+                <img src="img/expert.jpg" alt="expert" class="expert-image">
+            </picture>
+        
         <div class="expert-list">
             <div class="separator"></div>
             <h2 class="section-title">мы - эксперты в области производства химии</h2>
@@ -17,15 +24,18 @@ include_once('header-page.php'); ?>
                 настолько очевидна, что перспективное планирование играет важную роль в формировании системы
                 массового участия.</p>
         </div>
-    </div> -->
+    </div>
     <!-- /.expert-wrapper -->
-    <div class="container">
     <!-- Slider main container -->
     <?php include_once('./template-parts/features-slider.php'); ?>
    
 </div>
 <!-- /.container -->
-    <!-- <section class="production">
+
+   </section>
+   <!-- /.section expert -->
+    
+    <!-- <section class="section production">
         <div class="container">
             <div class="production-wrapper">
                 <div class="production-list">
