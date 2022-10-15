@@ -240,6 +240,7 @@ html{font-size:15px}
 .logo-svg{max-width:7rem}
 .header-nav-item:not(:last-child){margin-right:2.325rem}
 .cta-image{max-width:54rem;width:83%;left:-41px}
+.expert-image{max-width:28rem;max-height:28rem}
 }
 @media (max-width: 1480px) {
 html{font-size:14px}
@@ -258,6 +259,7 @@ html{font-size:14px}
 .cta-form{max-width:48.9rem}
 .input-group-wrapper{gap:1.475rem}
 .cta-form-title{margin-bottom:1.5625rem}
+.expert-image{max-width:26rem;max-height:26rem}
 }
 @media (max-width: 1200px) {
 .container{max-width:70rem}
@@ -283,6 +285,7 @@ html{font-size:14px}
 .footer-menu-wrapper:last-child{margin-left:3.125rem}
 .footer-info-wrapper{gap:1.8625rem;margin-left:.625rem}
 .footer-phone{font-size:1.7rem;margin-left:2.0875rem}
+.expert-image{max-width:24rem;max-height:24rem}
 }
 @media (max-width: 1100px) {
 .cta-image{left:-40px}
@@ -402,7 +405,7 @@ html{font-size:14px}
 }
 @media (max-width: 576px) {
 .container{max-width:93%}
-.mobile-menu-toggle{width:5.9rem;height:4.25rem;display:flex;flex-direction:column;padding:1.35rem 1.6rem}
+.mobile-menu-toggle{width:5.9rem;height:4.25rem;display:flex;flex-direction:column;padding:1.55rem 1.8rem}
 .separator{width:100px}
 .founter-photo{margin-bottom:.55rem}
 .brend{grid-template-areas:"logo title" "text text";padding:25px;grid-column-gap:30px;margin-top:0;padding-bottom:17px}
@@ -465,6 +468,5 @@ html{font-size:14px}
 .modal-form-footer{margin-top:.975rem}
 .modal-form-button{margin-bottom:1.4rem;height:62px}
 .modal-group-label{padding-left:.1875rem}
-.mobile-menu-toggle{padding:1.75rem 1.8rem}
 .notify{margin-bottom:.425rem}
 }
